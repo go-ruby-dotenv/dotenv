@@ -34,7 +34,7 @@ jobs:
       - if: runner.os != 'Windows'
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "4.0"
+          ruby-version: "4.0.5"
       - if: runner.os != 'Windows'
         run: gem install dotenv --version 3.2.0
       - run: go version
